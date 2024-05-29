@@ -59,10 +59,30 @@ Então ira visualizar os botões da pagina de saldo
 Então ira visualizar a movimentacao da conta
     Swipe By Percent    50    80    50    20
     Verifica texto    ${LABEL_HISTORICO}            Histórico
-    Verifica texto    ${TRANS_PATY}        Ontem\nPATRICIA COSTA\nR$ 30,00\nPix
-
-    # Verifica texto    ${TRANS_PATY}    $texto
-    # Verifica texto    $elementoto    $texto
-    # Verifica texto    $elementoto    $texto
-
     
+    Verifica texto    ${TRANS_PATY}        PATRICIA COSTA 
+    Verifica texto    ${TRANS_PATY}        Transferência enviada
+    Verifica texto    ${TRANS_PATY}        Ontem
+    Verifica texto    ${TRANS_PATY}        R$ 30,00
+    Verifica texto    ${TRANS_PATY}        Pix
+    
+    Verifica texto    ${TRANS_JEY}        Transferência recebida 
+    Verifica texto    ${TRANS_JEY}        Ontem
+    Verifica texto    ${TRANS_JEY}        ANDRE JEY
+    Verifica texto    ${TRANS_JEY}        R$ 30,00
+    Verifica texto    ${TRANS_JEY}        Pix
+    
+    Verifica texto    ${TRANS_ERIKO}        Transferência recebida 
+    Verifica texto    ${TRANS_ERIKO}        Ontem
+    Verifica texto    ${TRANS_ERIKO}        ERIKO BARBOSA
+    Verifica texto    ${TRANS_ERIKO}        R$ 30,00
+    Verifica texto    ${TRANS_ERIKO}        Pix
+    
+    Verifica texto    ${TRANS_IVAN}        Transferência recebida 
+    Verifica texto    ${TRANS_IVAN}        Ontem
+    Verifica texto    ${TRANS_IVAN}        IVAN COELHO 
+    Verifica texto    ${TRANS_IVAN}        R$ 30,00
+    Verifica texto    ${TRANS_IVAN}        Pix
+
+
+
