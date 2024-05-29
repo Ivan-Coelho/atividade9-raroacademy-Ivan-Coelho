@@ -1,8 +1,6 @@
 *** Settings ***
-Resource    ../utils/config.robot
-Resource    ../page/inicialPage.robot
-Resource    ../page/CarrocelPage.robot
 
+Resource    ../base.robot
 
 Test Setup        Abrir Aplicativo
 Test Teardown     Fechar Aplicativo
@@ -114,4 +112,4 @@ CT 019 - Valida o botão encontrar atalhos
     Dado que usuario acessa o aplicativo
     Quando localiza e acessa a área de desejo    ${BUTTON_ATALHOS}    ${BUTTON_ATALHOS}
     Então o botão deve estar visível e habilitado    ${BUTTON_ATALHOS}
-    
+

@@ -47,7 +47,7 @@ ${LABEL_ANALISE_CREDITO}             //android.view.View[@content-desc="Este val
 ${LABEL_ENTENDA_FUNCIONAMENTO}       //android.view.View[@content-desc="Entenda como funciona >"]
 ${LABEL_NENHUM_EMPRESTIMO}           //android.view.View[@content-desc="Você não possui nenhum empréstimo ativo."]
 
-${BUTTON_EMPRESTIMO}                 //android.widget.Button[@content-desc="NOVO EMPRÉSTIMO"]
+${BUTTON_NOVO_EMPRESTIMO}                 //android.widget.Button[@content-desc="NOVO EMPRÉSTIMO"]
 ${BUTTON_EMP_DUVIDA}                 //android.widget.FrameLayout//android.widget.Button[2]
 ${BUTTON_EMP_VOLTAR}                 //android.widget.FrameLayout//android.view.View[1]/android.widget.Button[1]
 
